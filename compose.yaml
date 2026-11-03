@@ -1,0 +1,13 @@
+services:
+  polyflow:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:4173:4173"
+    env_file:
+      - .env
+    volumes:
+      - polyflow-data:/app/.data
+
+volumes:
+  polyflow-data:

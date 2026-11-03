@@ -1,0 +1,9 @@
+.git
+.env
+.env.local
+.DS_Store
+node_modules
+.venv
+screenshots
+*.log
+.data

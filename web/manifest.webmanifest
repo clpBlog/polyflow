@@ -1,0 +1,11 @@
+{
+  "name": "PolyFlow 学习工作台",
+  "short_name": "PolyFlow",
+  "description": "聚合 Canvas 作业、课程资料与 Outlook 邮件的中文学习工作台。",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#F1F2EE",
+  "theme_color": "#F1F2EE",
+  "lang": "zh-CN",
+  "icons": [{ "src": "./assets/polyu-logo.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }]
+}

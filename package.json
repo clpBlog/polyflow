@@ -1,0 +1,16 @@
+{
+  "name": "polyflow",
+  "version": "0.3.0",
+  "private": true,
+  "description": "Chinese-first Canvas and Outlook learning workspace with a DeepSeek server proxy.",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node --watch server.mjs",
+    "check": "node --check server.mjs && node --check bridge/mac_mail.js && for f in web/src/*.js web/src/*/*.js; do node --check $f || exit 1; done",
+    "test": "node tests/test_mac_mail.mjs && python3 tests/test_outlook_bridge.py"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

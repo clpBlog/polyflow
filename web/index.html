@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#F1F2EE" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#131816" media="(prefers-color-scheme: dark)" />
+    <meta name="description" content="PolyFlow 把 Canvas 作业、课程资料与 Outlook 邮件放进一个中文优先的学习工作台。" />
+    <title>PolyFlow 学习工作台</title>
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="icon" href="./assets/polyu-logo.png" type="image/png" />
+    <link rel="apple-touch-icon" href="./assets/polyu-logo.png" />
+    <link rel="stylesheet" href="./styles/app.css" />
+    <script type="importmap">
+      { "imports": { "vue": "./vendor/vue.esm-browser.prod.js" } }
+    </script>
+    <link rel="modulepreload" href="./vendor/vue.esm-browser.prod.js" />
+  </head>
+  <body>
+    <div id="app"></div>
+    <noscript>PolyFlow 需要启用 JavaScript。</noscript>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
